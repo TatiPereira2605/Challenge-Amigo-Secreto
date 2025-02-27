@@ -1,10 +1,14 @@
 let listaAmigos = [];
 
 function adicionarAmigo() {
-    let nome = document.querySelector('input').value;
+    let nome = document.querySelector('input').value.trim();
 
-    if (nome == '') {
+    if (nome === '') {
         alert ('Por favor, insira um nome!');
+        return;
+    }
+    if (listaAmigos.includes(nome)) {
+        alert(`O amigo ${nome} já foi adicionado!`);
         return;
     }
     listaAmigos.push(nome);  
