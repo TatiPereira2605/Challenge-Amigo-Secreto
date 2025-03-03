@@ -1,6 +1,4 @@
 <h1 align="center"> Jogo do Amigo Secreto </h1>
-![amigo-secreto](https://github.com/user-attachments/assets/55bc9e87-6e7a-41a4-9b03-faeb8a8bacd0)
-
 
 <h2> Sobre</h2>
 O jogo foi desenvolvido como challenge durante a trilha de estudos para Iniciante em Programação do Programa ONE. Para jogar, basta adicionar os nomes a serem sorteados e clicar no botão "adicionar". Uma das funcionalidades criadas é que os nomes aparecerão na tela. Depois, é só clicar em sortear amigo e pronto! O jogo foi uma forma de colocar os conhecimentos básicos de programação em prática!
